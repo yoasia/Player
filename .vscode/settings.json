@@ -1,0 +1,14 @@
+{
+    "emeraldwalk.runonsave": {
+    "commands": [
+        {
+            "match": "\\.js$",
+            "cmd": "cd ${workspaceRoot} && npm run build "
+        },
+        {
+            "match": "\\.css$",
+            "cmd": "cd ${workspaceRoot} && npm run build "
+        }
+    ]
+}
+}

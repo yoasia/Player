@@ -1,0 +1,36 @@
+html,
+body,
+#app {
+  height: 100%;
+  width: 100%;
+  margin: 0 !important;
+}
+#app {
+  background-color: #333333;
+}
+.darker {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+#background {
+  height: 100%;
+  width: 100%;
+}
+#circle {
+  width: 30em;
+  height: 30em;
+  -moz-border-radius: 15em;
+  -webkit-border-radius: 15em;
+  border-radius: 15em;
+  border: 1px white solid;
+}
+#ui {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.not-visible {
+  width: 0 !important;
+  height: 0 !important;
+}
